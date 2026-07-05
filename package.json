@@ -3,7 +3,7 @@
   "displayName": "Terminal Sound",
   "description": "Plays success/failure sounds when terminal commands exit.",
   "version": "0.0.1",
-  "publisher": "antigravity",
+  "publisher": "terminalsound",
   "engines": {
     "vscode": "^1.93.0"
   },
