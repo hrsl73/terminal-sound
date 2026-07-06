@@ -5,3 +5,5 @@ tsconfig.json
 .gitignore
 .git/**
 .vscode-test/**
+sounds/**
+scratch/**

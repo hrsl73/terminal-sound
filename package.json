@@ -2,7 +2,7 @@
   "name": "terminal-sound",
   "displayName": "Terminal Sound",
   "description": "Plays success/failure sounds when terminal commands exit.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "terminalsound",
   "engines": {
     "vscode": "^1.93.0"
