@@ -43,7 +43,8 @@ export function activate(context: vscode.ExtensionContext) {
             if (customSuccessPath && fs.existsSync(customSuccessPath)) {
                 soundPath = customSuccessPath;
             } else {
-                soundPath = path.join(context.extensionPath, 'media', 'success.wav');
+                // soundPath = path.join(context.extensionPath, 'media', 'success.wav');
+                soundPath = path.join(context.extensionPath, 'media', 'success_new.wav');
                 if (customSuccessPath) {
                     log(`Custom success sound path does not exist: "${customSuccessPath}". Falling back to default success sound.`, 'warn');
                 }
@@ -52,7 +53,8 @@ export function activate(context: vscode.ExtensionContext) {
             if (customFailurePath && fs.existsSync(customFailurePath)) {
                 soundPath = customFailurePath;
             } else {
-                soundPath = path.join(context.extensionPath, 'media', 'failure.wav');
+                // soundPath = path.join(context.extensionPath, 'media', 'failure.wav');
+                soundPath = path.join(context.extensionPath, 'media', 'failure_new.wav');
                 if (customFailurePath) {
                     log(`Custom failure sound path does not exist: "${customFailurePath}". Falling back to default failure sound.`, 'warn');
                 }
